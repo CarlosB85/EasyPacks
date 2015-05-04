@@ -5,11 +5,10 @@
     <string name="login_user">Usuario</string>
     <string name="login_pass">Contraseña</string>
     <string name="action_settings">Settings</string>
-    <string name="btn_login">Iniciar</string>
     <string name="title_activity_viajes">Viajes</string>
     <string name="dft_viajes_placa">ABC123</string>
     <string name="viajes_titulo">Vehiculo : </string>
-    <string name="viajes_titulo_crear">Registrar viaje </string>
+    <string name="viajes_titulo_crear">Agregar oferta </string>
     <string name="viajes_btn_crear">Registrar</string>
     <string name="title_activity_registrar_viaje">Registrar Viaje</string>
     <string name="regV_Destino">Destino Final : </string>
@@ -20,5 +19,36 @@
     <string name="form_siguiente">Siguiente</string>
     <string name="title_activity_ver_viaje">VerViaje</string>
     <string name="hello_world">Hello world!</string>
+
+    //Botones
+
+    <string name="siguiente">Siguiente</string>
+    <string name="anterior">anterior</string>
+    <string name="btn_login">Entrar</string>
+
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas sem ex, vitae accumsan dolor convallis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas sem ex, vitae accumsan dolor convallis eget. </string>
+
+
+    //Perfil
+
+    <string name="cedula">Cédula de ciudadanía</string>
+    <string name="licencia">Licencia de conducción número</string>
+    <string name="placa">Placa de camión</string>
+    <string name="modelo">Modelo de camión</string>
+    <string name="entidad">Entidad a la que pertenece</string>
+    <string name="comentario">Comentarios</string>
+
+   //Preguntas
+
+    <string name="pregunta_origen">¿Cuál es la ciudad de partida del camión?</string>
+
+   //Hints
+
+    <string name="hint_origen">Toca aquí para escribir la ciudad de partida</string>
+
+   //Reminders
+
+    <string name="reminder1">Recuerda whatever</string>
 
 </resources>

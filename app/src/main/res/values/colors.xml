@@ -4,4 +4,8 @@
     <color name="blanco">#fff</color>
     <color name="fondo">#F2F2F2</color>
 
+    <color name="hint">#a9a7a6</color>
+    <color name="escritura">#5e5c5c</color>
+    <color name="preguntas">#4c4c4c</color>
+
 </resources>
