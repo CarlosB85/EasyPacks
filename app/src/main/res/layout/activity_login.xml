@@ -9,6 +9,7 @@
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_marginTop="30dp"
         android:layout_weight="2"
         android:src="@drawable/ic_launcher"/>
 
@@ -19,49 +20,37 @@
         android:gravity="center"
         android:layout_weight="2">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/login_user"
-            android:id="@+id/textView"
-            android:textColor="@color/blanco" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:inputType="number"
             android:ems="10"
             android:id="@+id/txtUsuario"
-            android:layout_marginTop="5dp"
-            android:inputType="number"
-            android:layout_marginBottom="5dp" />
+            android:background="#fff"
+            android:text="@string/login_user"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/login_pass"
-            android:id="@+id/textView2"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:textColor="@color/blanco" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/txtPass"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp" />
+            android:background="#fff" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_login"
+            android:layout_marginTop="30dp"
             android:id="@+id/btnLogin"
             android:onClick="login"
             android:textColor="@color/blanco"
-            android:textColorHighlight="#5b0057b5"
-            android:background="#5d0057b5"
+            android:background="#853674"
             android:ellipsize="marquee"
             android:enabled="true" />
     </LinearLayout>

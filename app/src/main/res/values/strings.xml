@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name">EasyPacks</string>
-    <string name="login_user">Usuario :</string>
-    <string name="login_pass">Contraseña :</string>
+    <string name="login_user">Usuario</string>
+    <string name="login_pass">Contraseña</string>
     <string name="action_settings">Settings</string>
     <string name="btn_login">Iniciar</string>
     <string name="title_activity_viajes">Viajes</string>
